@@ -1,0 +1,16 @@
+C:\Users\janna\Documents\Folders\C#\Piskvorky_druhy_pokus\Piskvorky_druhy_pokus\bin\Debug\Piskvorky_druhy_pokus.exe.config
+C:\Users\janna\Documents\Folders\C#\Piskvorky_druhy_pokus\Piskvorky_druhy_pokus\bin\Debug\Piskvorky_druhy_pokus.exe
+C:\Users\janna\Documents\Folders\C#\Piskvorky_druhy_pokus\Piskvorky_druhy_pokus\bin\Debug\Piskvorky_druhy_pokus.pdb
+C:\Users\janna\Documents\Folders\C#\Piskvorky_druhy_pokus\Piskvorky_druhy_pokus\obj\Debug\Piskvorky_druhy_pokus.csproj.AssemblyReference.cache
+C:\Users\janna\Documents\Folders\C#\Piskvorky_druhy_pokus\Piskvorky_druhy_pokus\obj\Debug\Piskvorky_druhy_pokus.csproj.SuggestedBindingRedirects.cache
+C:\Users\janna\Documents\Folders\C#\Piskvorky_druhy_pokus\Piskvorky_druhy_pokus\obj\Debug\Piskvorky_druhy_pokus.csproj.CoreCompileInputs.cache
+C:\Users\janna\Documents\Folders\C#\Piskvorky_druhy_pokus\Piskvorky_druhy_pokus\obj\Debug\Piskvorky_druhy_pokus.exe
+C:\Users\janna\Documents\Folders\C#\Piskvorky_druhy_pokus\Piskvorky_druhy_pokus\obj\Debug\Piskvorky_druhy_pokus.pdb
+K:\C#\Piskvorky_druhy_pokus\bin\Debug\Piskvorky_druhy_pokus.exe.config
+K:\C#\Piskvorky_druhy_pokus\bin\Debug\Piskvorky_druhy_pokus.exe
+K:\C#\Piskvorky_druhy_pokus\bin\Debug\Piskvorky_druhy_pokus.pdb
+K:\C#\Piskvorky_druhy_pokus\obj\Debug\Piskvorky_druhy_pokus.csproj.AssemblyReference.cache
+K:\C#\Piskvorky_druhy_pokus\obj\Debug\Piskvorky_druhy_pokus.csproj.SuggestedBindingRedirects.cache
+K:\C#\Piskvorky_druhy_pokus\obj\Debug\Piskvorky_druhy_pokus.csproj.CoreCompileInputs.cache
+K:\C#\Piskvorky_druhy_pokus\obj\Debug\Piskvorky_druhy_pokus.exe
+K:\C#\Piskvorky_druhy_pokus\obj\Debug\Piskvorky_druhy_pokus.pdb
