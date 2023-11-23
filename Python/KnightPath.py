@@ -43,7 +43,8 @@ def Knight_move(x: int, y: int, path: list[str], board: list[list[str]]):
     if is_final(board):
         final.append(path.copy())
         return final
-
+    
+    
     for dx, dy in moves:
         new_x, new_y = x + dx, y + dy
         if is_valid(new_x, new_y, board):
