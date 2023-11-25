@@ -31,31 +31,54 @@ class DecisionTree:
 
 
 data = [
-    ([10.99, True, 2], True),
-    ([5.50, False, 2], True),
-    ([5.50, False, 1], False),
-    ([1.99, True, 0], True),
-    ([4.50, False, 0], False),
-    ([4.50, True, 1], True),
-    ([0.99, True, 2], True),
-    ([3.99, False, 1], True),
-    ([3.99, True, 0], False),
-    ([0.99, False, 0], True)
+    ([46.85, True, 0], True),
+([46.70, True, 0], True),
+([31.91, True, 0], False),
+([1.86, False, 2], False),
+([51.51, True, 0], True),
+([9.94, True, 0], False),
+([13.79, False, 2], False),
+([45.60, True, 2], True),
+([48.02, False, 0], True),
+([11.74, False, 1], False),
+([56.77, True, 1], True),
+([8.68, True, 2], False),
+([9.15, False, 1], False),
+([24.31, True, 2], True),
+([7.10, True, 0], False),
+([38.88, True, 1], True),
+([38.88, True, 0], False),
+([49.58, False, 0], True),
+([47.45, False, 1], True),
+([27.19, True, 1], True),
+([27.19, False, 1], False),
+([25.75, False, 0], False),
+([25.75, False, 2], True),
+([24.09, False, 0], False),
+([52.10, False, 0], True),
+([15.87, True, 2], True),
+([23.55, False, 2], True),
+([35.86, True, 2], True)
+
 ]
 
 # constants
-COST = 0
-HAS_AT_HOME = 1
-MONEY = 2
+LENGTH = 0
+CHOSEN_BETTER = 1
+FEEDERS = 2
 
 # Tuto funkci implementuj.
-def make_decision_tree() -> 'DecisionTree':  
+def make_decision_tree() -> 'DecisionTree': 
+    node3 = DecisionTreeNode(1, [True], [False, True]) #asi špatně
+    node2 = DecisionTreeNode(2, [1,2,3], [False, node3, True]) #asi špatně
+    node1 = DecisionTreeNode(0, [15],[False, node2])  
+    node0 = DecisionTreeNode (0, [45],[node1, True])
+   
     
-    node4 = DecisionTreeNode (0, [5], [True, False])
-    node3 = DecisionTreeNode(2, [2],[True, False])
-    node2 = DecisionTreeNode(2, [0, 2], [node4, True])
-    node1 = DecisionTreeNode(1, [1], [node4, True])
-    node0 = DecisionTreeNode(1, [True], [node1, node2])
+    
+    
+    
+
     
     return DecisionTree(node0)
 
@@ -78,16 +101,35 @@ def make_example_tree() -> DecisionTree:
 tree = make_decision_tree()
 
 data_points = [
-    ([10.99, True, 2], True),
-    ([5.50, False, 2], True),
-    ([5.50, False, 1], False),
-    ([1.99, True, 0], True),
-    ([4.50, False, 0], False),
-    ([4.50, True, 1], True),
-    ([0.99, True, 2], True),
-    ([3.99, False, 1], True),
-    ([3.99, True, 0], False),
-    ([0.99, False, 0], True)
+    ([46.85, True, 0], True),
+([46.70, True, 0], True),
+([31.91, True, 0], False),
+([1.86, False, 2], False),
+([51.51, True, 0], True),
+([9.94, True, 0], False),
+([13.79, False, 2], False),
+([45.60, True, 2], True),
+([48.02, False, 0], True),
+([11.74, False, 1], False),
+([56.77, True, 1], True),
+([8.68, True, 2], False),
+([9.15, False, 1], False),
+([24.31, True, 2], True),
+([7.10, True, 0], False),
+([38.88, True, 1], True),
+([38.88, True, 0], False),
+([49.58, False, 0], True),
+([47.45, False, 1], True),
+([27.19, True, 1], True),
+([27.19, False, 1], False),
+([25.75, False, 0], False),
+([25.75, False, 2], True),
+([24.09, False, 0], False),
+([52.10, False, 0], True),
+([15.87, True, 2], True),
+([23.55, False, 2], True),
+([35.86, True, 2], True)
+
 ]
 
 # Evaluate each data point
